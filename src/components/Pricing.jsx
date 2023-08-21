@@ -22,7 +22,7 @@ const Pricing = () => {
                 <p>25% OFF</p>
             </div>
         </div>
-        <div className="mt-5 lg:mt-14 flex flex-col items-center gap-5 lg:flex-row lg:justify-center lg:gap-20">
+        <div className="mt-5 lg:mt-14 flex flex-col items-center gap-10 lg:flex-row lg:justify-center lg:gap-20">
             <div className="rounded-lg md:w-[60%] border-2 bg-white transition ease-in-out delay-150 hover:scale-110 duration-300">
                 <div className="py-8">
                     <p className="lg:text-2xl">Starter</p>
@@ -32,14 +32,14 @@ const Pricing = () => {
                     </div>
                 </div>
                 <hr/>
-                <div className="flex flex-col items-center gap-5 px-12 py-10 lg:text-xl">
+                <div className="flex flex-col text-sm md:text-base items-center gap-5 px-12 py-10 lg:text-xl">
                     <div className="flex gap-3 items-center md:self-center lg:self-start">
                         <Checkmark/>
                         <p>150 Gigabyte storage</p>
                     </div>
                     <div className="flex gap-3 items-center md:self-center lg:self-start">
                         <Checkmark/>
-                        <p>Limited Access to File editors </p>
+                        <p> Limited Access to File editors </p>
                     </div>
                     <div className="flex gap-3 items-center md:self-center lg:self-start">
                         <Checkmark/>
@@ -66,7 +66,7 @@ const Pricing = () => {
                     </div>
                 </div>
                 <hr className="bg-[#1B1E23]"/>
-                <div className="flex flex-col items-center gap-5 px-12 py-10 lg:text-xl">
+                <div className="flex flex-col items-center gap-5 px-12 py-10 text-sm md:text-base lg:text-xl">
                     <div className="flex gap-3 items-center smd:self-center lg:self-start">
                         <Checkmark/>
                         <p>1 Terabyte storage</p>
@@ -102,7 +102,7 @@ const Pricing = () => {
                     </div>
                 </div>
                 <hr/>
-                <div className="flex flex-col items-center gap-5 px-12 py-10 lg:text-xl">
+                <div className="flex flex-col items-center gap-5 px-12 py-10 text-sm md:text-base lg:text-xl">
                     <div className="flex gap-3 items-center md:self-center lg:self-start">
                         <Checkmark/>
                         <p>Unlimited storage</p>
